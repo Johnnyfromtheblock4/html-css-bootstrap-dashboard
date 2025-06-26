@@ -52,15 +52,13 @@
   <main>
     <div class="container">
       <div class="row mt-3">
+
         <!-- NUOVO LIBRO -->
         <div class="col-12">
           <div class="mb-2">
             <h1>Nuovo Libro</h1>
           </div>
         </div>
-
-        <!-- NOME & COGNOME -->
-
 
         <!-- NOME -->
         <div class="col-6">
@@ -71,7 +69,6 @@
           </div>
         </div>
 
-
         <!-- COGNOME -->
         <div class="col-6">
           <div class="mb-2">
@@ -81,14 +78,29 @@
           </div>
         </div>
 
-
         <!-- TITOLO -->
         <div class="col-12">
           <div class="mb-2">
             <label for="titolo" class="form-label fw-bold">Titolo</label>
             <input type="text" name="titolo" class="form-control" required placeholder="Inserisci il titolo del libro"
               id="titolo">
+            <div id="italiantitle" class="form-text">Titolo versione italiana</div>
           </div>
+        </div>
+
+        <!-- GENERE -->
+        <div class="mb-2">
+          <label for="" class="form-label fw-bold">Genere</label>
+          <select class="form-select" name="genere" id="">
+            <option value="">Seleziona il genere</option>
+            <option value="fantasy">Fantasy</option>
+            <option value="thriller">Thriller</option>
+            <option value="giallo">Giallo</option>
+            <option value="storico">Storico</option>
+            <option value="noir">Noir</option>
+            <option value="dissacrante">Dissacrante</option>
+            <option value="divulgativo">Divulgativo</option>
+          </select>
         </div>
 
 
