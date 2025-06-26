@@ -60,7 +60,7 @@
         <div class="col-6">
           <div class="mb-2">
             <label for="nome" class="form-label fw-bold">Nome Autore</label>
-            <input type="text" name="nome" class="form-control" required placeholder="Inserisci il nome dell'autore"
+            <input type="text" name="nome" class="form-control" required maxlength="14" placeholder="Inserisci il nome dell'autore"
               id="nome">
           </div>
         </div>
@@ -69,7 +69,7 @@
         <div class="col-6">
           <div class="mb-2">
             <label for="cognome" class="form-label fw-bold">Cognome Autore</label>
-            <input type="text" name="cognome" class="form-control" required
+            <input type="text" name="cognome" class="form-control" required maxlength="14"
               placeholder="Inserisci il cognome dell'autore" id="cognome">
           </div>
         </div>
@@ -78,7 +78,7 @@
         <div class="col-12">
           <div class="mb-2">
             <label for="titolo" class="form-label fw-bold">Titolo</label>
-            <input type="text" name="titolo" class="form-control" required placeholder="Inserisci il titolo del libro"
+            <input type="text" name="titolo" class="form-control" required maxlength="24" placeholder="Inserisci il titolo del libro"
               id="titolo">
             <div id="italiantitle" class="form-text">Titolo versione italiana</div>
           </div>
@@ -105,7 +105,7 @@
         <div class="col-12 col-lg-4">
           <div class="mb-2">
             <label for="anno" class="form-label fw-bold">Anno di Pubblicazione</label>
-            <input type="number" name="anno" class="form-control" required placeholder="Inserisci l'anno" id="anno">
+            <input type="number" name="anno" class="form-control" required maxlength="4" placeholder="Inserisci l'anno" id="anno">
           </div>
         </div>
 
@@ -113,7 +113,7 @@
         <div class="col-12 col-lg-4">
           <div class="mb-2">
             <label for="isbn" class="form-label fw-bold">ISBN#</label>
-            <input type="number" name="isbn" class="form-control" required placeholder="Inserisci il codice ISBN#"
+            <input type="number" name="isbn" class="form-control" required maxlength="13" placeholder="Inserisci il codice ISBN#"
               id="isbn">
           </div>
         </div>
@@ -128,7 +128,7 @@
           <div class="mb-2">
             <div class="mb-2">
               <label for="note" class="form-label fw-bold" for="">Note</label>
-              <textarea class="form-control" required placeholder="Inserisci eventuali note sul libro" name="note"
+              <textarea class="form-control" required minlength="10" placeholder="Inserisci eventuali note sul libro" name="note"
                 id="note"></textarea>
             </div>
           </div>
